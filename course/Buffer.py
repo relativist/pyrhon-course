@@ -17,6 +17,7 @@ class Buffer:
         return self.lst
 
 
+
 a = Buffer()
 a.add(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2 ,2)
 print(a.get_current_part())
